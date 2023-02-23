@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+
+}
+section{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin-inline: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.git{
+    font-size: 20px;
+}
+.About{
+    display: flex;
+    gap: 1.6rem;
+    font-size: 13px;
+}
+.try{
+    border: solid 1px;
+    border-radius: 5rem;
+    padding: 5px;
+    width: 8vw;
+    text-align: center;
+    border-color:rgb(65, 61, 61);
+}
+nav{
+    display: flex;
+    margin-top: 25px;
+}
+main{
+    /* background-color:brown; */
+    width: 100%;
+    height: 63vh;
+    padding: 3rem;
+    
+}
+h2{
+font-size: 40px;
+margin-top: 6rem;
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(to right, #26e3c2 ,#2583ee, #45a0f6);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* text-shadow:skyblue; */
+    margin-bottom: 10px;
+}
+.more{
+    display: flex;
+    gap: 2rem;
+    padding: 15px;
+    margin-top: 1rem;
+}
+.more > p{
+    border: solid 1px;
+    color: white;
+    width: 8vw;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 5rem;
+    padding: 4px;
+}
+.more > p:hover{
+    background-color: white;
+    color: black;
+
+}
+form{
+    width: 100%;
+    height: 60vh;
+    background-image: url("./img/murja-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+aside{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+aside > div{
+    height: 30vh;
+    width: 22vw;
+    margin-top: 30px;
+    padding: 25px;
+    border: solid 0.2px;
+    color: rgba(255, 255, 255, 0.445);
+    border-radius: 15px;
+   
+}
+aside >div > p {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.we{
+    font-size: 2.9rem;
+    background: linear-gradient(to right, #26e3c2 ,#2583ee, #45a0f6);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 45px;
+    margin-left: 3.5rem;
+
+}
+.logo{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./img/murjp1nk4lp1idlt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our > p{
+font-size: 3rem;
+padding: 10px;
+}
+.our{
+    font-size: 19px;
+    color: azure;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+footer >div{
+    margin-top: 2rem;
+    border: solid 1px;
+    border-color:rgb(65, 61, 61);
+    padding: 20px;
+    border-radius: 18px;
+    width: 25vw;
+    height: 52vh;
+}
+footer > div > h3{
+    font-size: 2rem;
+
+}
+footer > div > p{
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 13px;
+    color:rgb(168, 156, 156);
+}
+.man{
+    color: white;
+}
+.fa-check{
+    background: linear-gradient(to right, #26e3c2 ,#2583ee, #45a0f6);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.fass{
+    margin-top: 20px;
+}
+h4{
+    border: solid 1px;
+    color: black;
+    text-align: center;
+    border-radius: 3rem;
+    height: 2.2rem;
+    margin-top: 2rem;
+    padding: 8px;
+    background-color: white;
+    border: 0;
+}
+hr{
+    
+    border-color:rgb(65, 61, 61);
+}
+span{
+    font-size: 25px;
+}
+footer > div:hover{
+    color: black;
+    background: linear-gradient(to right, #26e3c2 , #45a0f6);
+    }
+    
+h4:hover{
+    color: white;
+    background-color: black;
+
+}
